@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Garrett Wiebke) Datasheet</font><br>
+<font size= "6">Garrett Wiebke Datasheet</font><br>
 as part of<br>
 <font size= "8"> Embedded Systems Design </font><br>
 for<br>
