@@ -51,3 +51,53 @@ title: Component Selection Example
 **Choice:** Option 3:  Peristaltic Liquid Pump with Silicone Tubing - 5V to 6V DC Power
 
 **Rationale:** Although this component is pretty expensive compared to its counterparts, it is highly vetted by hobbyists and comes from a reliable site with quick delivery times, we are hoping the extra cost can fix some of the grievences about existing products on the market with water pumps with noise and durability being the two most common problems. 
+
+
+**MOSFET**
+
+1. AO3400A Alpha and Omega Semiconductor 
+
+ ![](image-4.png)
+
+    * $0.46
+    * [Link to product](https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Very cheap component                      | Possible stall currents                                          |
+    | Low heat draw                             | Possible durability concerns                                     |
+    | Meets surface mount constraint of project |                                                                  |
+
+    
+2. 	IRLML2502 Infineon
+
+     ![](image-5.png)
+
+    * $0.45
+    * [Link to product](https://www.infineon.com/part/IRLML2502)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Highly vetted                                                     | High heat           |
+    | Consistent and reliable                                           |  
+    | Meets surface mount constraint of project                         |       
+    | Quick shipping times                                              |   
+
+ 3.  IRLML6344 Infineon
+
+    ![](image-6.png)
+
+    * $0.49
+    * [Link to product](https://www.infineon.com/part/IRLML6344)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Highly vetted                                                     | High heat           |
+    | Consistent and reliable                                           |  
+    | Meets surface mount constraint of project                         |       
+    | Quick shipping times
+
+**Choice:** Option 1:   AO3400A Alpha and Omega Semiconductor 
+
+**Rationale:** Team 106 is open to trying multiple MOSFETS since the low cost and speedy shipping times the AO3400A seems to be the favorite among hobbyists with similar constraints to our project 
+
