@@ -2,57 +2,52 @@
 title: Component Selection Example
 ---
 
-## Examples
 
-### Style 1
 
-> This is the example found in the assignment, uses more html
+**Water Pump**
 
-*Table 1: Example component selection*
+1. Peristaltic Liquid Pump with Silicone Tubing - 12V DC Power
 
-**External Clock Module**
+     ![](image.png)
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $24
+    * [Link to product](https://www.adafruit.com/product/1150?srsltid=AfmBOooaz39uHHWJ213ik0FwD3iclTX2l7PiEKJ8JLTGcDD_krnj78P4)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Better and more reliable water flow       | Rated for 12V instead of a lower 3.3 or 5V                       |
+    | Easy to use and beginner friendly         | Possible durability concerns                                     |
+    | Meets surface mount constraint of project | Expensive component                                              |
 
-1. CTX936TR-ND surface mount oscillator
+    
+2. 	SUBMERSIBLE 3VDC HORIZONTAL PUMP
 
-    ![](image3.png)
+     ![](image-1.png)
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * $2.95
+    * [Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4546/11627740)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | Extremely cheap component                                         | More expensive      |
+    | Low voltage rating of 3V                                          | Slow shipping speed |
+    | Meets surface mount constraint of project                         | Low water flow      |
+    | Able to be submersed                                              | Must be submmersed  |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+ 3.  Peristaltic Liquid Pump with Silicone Tubing - 5V to 6V DC Power
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+    ![](image-3.png)
+
+    * $24.95
+    * [Link to product](https://www.hiwonder.com/products/water-pump-module?variant=39371234345047&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoookpOvA-DBVPSECvKZkFZYQD2NgIaOfeNUoG75w4vDL5uBnnFHEqo)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Favored by hobbyists                                              | Expensive           |
+    | 5V rated                                                          | Maintenance needed  |
+    | Meets surface mount constraint of project                         |       
+    | Good water flow                                                   |   
+
+**Choice:** Option 3:  Peristaltic Liquid Pump with Silicone Tubing - 5V to 6V DC Power
+
+**Rationale:** Although this component is pretty expensive compared to its counterparts, it is highly vetted by hobbyists and comes from a reliable site with quick delivery times, we are hoping the extra cost can fix some of the grievences about existing products on the market with water pumps with noise and durability being the two most common problems. 
