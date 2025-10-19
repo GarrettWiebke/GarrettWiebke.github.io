@@ -66,7 +66,7 @@ title: Component Selection Example
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Very cheap component                      | Possible stall currents                                          |
     | Low heat draw                             | Possible durability concerns                                     |
-    | Meets surface mount constraint of project |                                                                  |
+    | Meets surface mount constraint of project |                                                                  
 
     
 2. 	IRLML2502 Infineon
