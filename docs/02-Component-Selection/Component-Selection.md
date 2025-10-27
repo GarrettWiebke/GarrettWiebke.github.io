@@ -10,8 +10,8 @@ title: Component Selection Example
 
      ![](image.png)
 
-    * $24
-    * [Link to product](https://www.adafruit.com/product/1150?srsltid=AfmBOooaz39uHHWJ213ik0FwD3iclTX2l7PiEKJ8JLTGcDD_krnj78P4)
+    - **Price:** $24
+    - **Product:** [Link to product](https://www.adafruit.com/product/1150?srsltid=AfmBOooaz39uHHWJ213ik0FwD3iclTX2l7PiEKJ8JLTGcDD_krnj78P4)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -24,8 +24,8 @@ title: Component Selection Example
 
      ![](image-1.png)
 
-    * $2.95
-    * [Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4546/11627740)
+    - **Price:** $2.95
+    - **Product:** [Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4546/11627740)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
@@ -38,8 +38,8 @@ title: Component Selection Example
 
     ![](image-3.png)
 
-    * $24.95
-    * [Link to product](https://www.hiwonder.com/products/water-pump-module?variant=39371234345047&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoookpOvA-DBVPSECvKZkFZYQD2NgIaOfeNUoG75w4vDL5uBnnFHEqo)
+    - **Price:** $24.95
+    - **Product:** [Link to product](https://www.adafruit.com/product/3910?gad_source=1&gad_campaignid=21079267614&gbraid=0AAAAADx9JvQlcGTZYRF6TWY-XTRT3Qei7&gclid=Cj0KCQjwsPzHBhDCARIsALlWNG2GqUuxTrSHFR22KW7wy2Tp4dqZtKbyARlyKp5T1vI9AJeWGoFzRQcaAiygEALw_wcB)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
@@ -74,8 +74,8 @@ title: Component Selection Example
 
      ![](image-5.png)
 
-    * $0.45
-    * [Link to product](https://www.infineon.com/part/IRLML2502)
+    - **Price:** $0.45
+    - **Product:** [Link to product](https://www.infineon.com/part/IRLML2502)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
@@ -88,8 +88,8 @@ title: Component Selection Example
 
     ![](image-6.png)
 
-    * $0.49
-    * [Link to product](https://www.infineon.com/part/IRLML6344)
+    - **Price:** $0.49
+    - **Product:** [Link to product](https://www.infineon.com/part/IRLML6344)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
