@@ -16,8 +16,8 @@ title: Component Selection Example
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Better and more reliable water flow       | Rated for 12V instead of a lower 3.3 or 5V                       |
-    | Easy to use and beginner friendly         | Possible durability concerns                                     |
-    | Meets surface mount constraint of project | Expensive component                                              |
+    | Easy to use and beginner friendly         | Possible durability concerns                                    |
+    | Meets through hole constraint of project  | Expensive component                                   |
 
     
 2. 	SUBMERSIBLE 3VDC HORIZONTAL PUMP
@@ -31,7 +31,7 @@ title: Component Selection Example
     | ----------------------------------------------------------------- | ------------------- |
     | Extremely cheap component                                         | More expensive      |
     | Low voltage rating of 3V                                          | Slow shipping speed |
-    | Meets surface mount constraint of project                         | Low water flow      |
+    | Meets through hole constraint of project                          | Low water flow      |
     | Able to be submersed                                              | Must be submmersed  |
 
  3.  Peristaltic Liquid Pump with Silicone Tubing - 5V to 6V DC Power
@@ -45,7 +45,7 @@ title: Component Selection Example
     | ----------------------------------------------------------------- | ------------------- |
     | Favored by hobbyists                                              | Expensive           |
     | 5V rated                                                          | Maintenance needed  |
-    | Meets surface mount constraint of project                         |       
+    | Meets through hole constraint of project                          |       
     | Good water flow                                                   |   
 
 **Choice:** Option 3:  Peristaltic Liquid Pump with Silicone Tubing - 5V to 6V DC Power
@@ -65,8 +65,8 @@ title: Component Selection Example
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Very cheap component                      | Possible stall currents                                          |
-    | Low heat draw                             | Possible durability concerns                                     |
-    | Meets surface mount constraint of project |                                                                  
+    | Low heat draw                             | Possible durability concerns                                    |
+    | Meets surface mount constraint of project                                     |                                                                  
 
     
 2. 	IRLML2502 Infineon
@@ -94,7 +94,7 @@ title: Component Selection Example
     | ----------------------------------------------------------------- | ------------------- |
     | Highly vetted                                                     | High heat           |
     | Consistent and reliable                                           |  
-    | Meets surface mount constraint of project                         |       
+    | Meets through hole constraint of project                          |       
     | Quick shipping times
 
 **Choice:** Option 1:   AO3400A Alpha and Omega Semiconductor 
