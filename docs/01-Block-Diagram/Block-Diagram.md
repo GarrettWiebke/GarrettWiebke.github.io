@@ -6,14 +6,12 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
+This block diagram represents the water pump subsystem of Team 106's smart plat system.
 Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+* 5v coming from linear voltage regulator.
+* 5v thru hole water pump from adafruit.
+* Recieving data from JT's moisture sensor output on connector pin 6 
+
 
 To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
 
