@@ -59,14 +59,15 @@ title: Component Selection Example
 
  ![](image-4.png)
 
-    * $0.46
-    * [Link to product](https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772)
+- **Price:** $0.46  
+- **Product:** [AO3400A – Alpha & Omega Semiconductor Inc.](https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772)
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Very cheap component                      | Possible stall currents                                    |
-    | Low heat draw                             | Possible durability concerns                                    |
-    | Meets through hole constraint of project  |
+| Pros                                 | Cons                                         |
+| ------------------------------------ | -------------------------------------------- |
+| Very cheap component                 | Possible stall currents                      |
+| Low heat draw                        | Possible durability concerns                 |
+| Meets through-hole constraint of project | —                                          |
+
 
     
 2. 	IRLML2502 Infineon
@@ -80,7 +81,7 @@ title: Component Selection Example
     | ----------------------------------------------------------------- | ------------------- |
     | Highly vetted                                                     | High heat           |
     | Consistent and reliable                                           |  
-    | Meets through hole constraint of project                          |       
+    | Meets through hole constraint of project                          |                     
     | Quick shipping times                                              |   
 
  3.  IRLML6344 Infineon
