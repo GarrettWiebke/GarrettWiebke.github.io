@@ -867,7 +867,7 @@
 </li>
 </ol>
 <p><strong>Choice:</strong> Option 3:  Peristaltic Liquid Pump with Silicone Tubing - 5V to 6V DC Power</p>
-<p><strong>Rationale:</strong> Although this component is pretty expensive compared to its counterparts, it is highly vetted by hobbyists and comes from a reliable site with quick delivery times, we are hoping the extra cost can fix some of the grievences about existing products on the market with water pumps with noise and durability being the two most common problems. </p>
+<p><strong>Rationale:</strong> Although this component is pretty expensive compared to its counterparts, it is highly favored by hobbyists and comes from a reliable site with quick delivery times, we are hoping the extra cost can fix some of the grievences about existing products on the market with water pumps with noise and durability being the two most common problems. With this type of water pump the liquid is only touching the tubing instead of the pump internals extending durability and reducing noise.  </p>
 <p><strong>MOSFET</strong></p>
 <ol>
 <li>AO3400A Alpha and Omega Semiconductor </li>
@@ -894,18 +894,18 @@
 <td>Possible durability concerns</td>
 </tr>
 <tr>
-<td>Meets through-hole constraint of project</td>
-<td>—</td>
+<td></td>
+<td>Is a surface mount Component</td>
 </tr>
 </tbody>
 </table>
 <ol>
 <li>
-<p>IRLML2502 Infineon</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-5.png" data-desc-position="bottom"><img alt="" src="../image-5.png"></a></p>
+<p>IRLZ44N Infineon</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-7.png" data-desc-position="bottom"><img alt="alt text" src="../image-7.png"></a></p>
 <ul>
-<li><strong>Price:</strong> $0.45</li>
-<li><strong>Product:</strong> <a href="https://www.infineon.com/part/IRLML2502">Link to product</a></li>
+<li><strong>Price:</strong> $1.52</li>
+<li><strong>Product:</strong> <a href="https://www.infineon.com/part/IRLZ44N">Link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -916,12 +916,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Highly vetted</td>
+<td>Overkill for project</td>
 <td>High heat</td>
 </tr>
 <tr>
 <td>Consistent and reliable</td>
-<td></td>
+<td>Expensive</td>
 </tr>
 <tr>
 <td>Meets through hole constraint of project</td>
@@ -950,27 +950,19 @@
 </thead>
 <tbody>
 <tr>
-<td>Highly vetted</td>
+<td>Highly favored</td>
 <td>High heat</td>
 </tr>
 <tr>
 <td>Consistent and reliable</td>
-<td></td>
-</tr>
-<tr>
-<td>Meets through hole constraint of project</td>
-<td></td>
-</tr>
-<tr>
-<td>Quick shipping times</td>
-<td></td>
+<td>Surface Mount</td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 1:   AO3400A Alpha and Omega Semiconductor </p>
-<p><strong>Rationale:</strong> Team 106 is open to trying multiple MOSFETS since the low cost and speedy shipping times the AO3400A seems to be the favorite among hobbyists with similar constraints to our project </p>
+<p><strong>Choice:</strong> Option 2:  IRLZ44N Infineon</p>
+<p><strong>Rationale:</strong> The PIC microcontroller cannot safely power the pump directly so a MOSFET is needed. The MOSFET switches the 5-6V supply on and off rapidly with a PWM signal to control speed and water flow. The IRLZ44N is a good choice here because it can safely handle the pumps motor current without overheating or damaging the microcontroller this meets project constraints by coming in through hole configuration, working directly with 3.3V or 5V microcontroller signals and has a great safety margin for our project outputting virtually no heat.</p>
 
 
 
