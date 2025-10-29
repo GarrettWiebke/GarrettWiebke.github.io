@@ -50,7 +50,7 @@ title: Component Selection Example
 
 **Choice:** Option 3:  Peristaltic Liquid Pump with Silicone Tubing - 5V to 6V DC Power
 
-**Rationale:** Although this component is pretty expensive compared to its counterparts, it is highly vetted by hobbyists and comes from a reliable site with quick delivery times, we are hoping the extra cost can fix some of the grievences about existing products on the market with water pumps with noise and durability being the two most common problems. 
+**Rationale:** Although this component is pretty expensive compared to its counterparts, it is highly favored by hobbyists and comes from a reliable site with quick delivery times, we are hoping the extra cost can fix some of the grievences about existing products on the market with water pumps with noise and durability being the two most common problems. With this type of water pump the liquid is only touching the tubing instead of the pump internals extending durability and reducing noise.  
 
 
 **MOSFET**
@@ -66,21 +66,21 @@ title: Component Selection Example
 | ------------------------------------ | -------------------------------------------- |
 | Very cheap component                 | Possible stall currents                      |
 | Low heat draw                        | Possible durability concerns                 |
-| Meets through-hole constraint of project | —                                          |
+|                                      | Is a surface mount Component 
 
 
     
-2. 	IRLML2502 Infineon
+2. 	IRLZ44N Infineon
 
-     ![](image-5.png)
+     ![alt text](image-7.png)
 
-    - **Price:** $0.45
-    - **Product:** [Link to product](https://www.infineon.com/part/IRLML2502)
+    - **Price:** $1.52
+    - **Product:** [Link to product](https://www.infineon.com/part/IRLZ44N)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Highly vetted                                                     | High heat           |
-    | Consistent and reliable                                           |  
+    | Overkill for project                                              | High heat           |
+    | Consistent and reliable                                           | Expensive           |
     | Meets through hole constraint of project                          |                     
     | Quick shipping times                                              |   
 
@@ -93,12 +93,11 @@ title: Component Selection Example
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Highly vetted                                                     | High heat           |
-    | Consistent and reliable                                           |  
-    | Meets through hole constraint of project                          |       
-    | Quick shipping times
+    | Highly favored                                                    | High heat           |
+    | Consistent and reliable                                           | Surface Mount
+    
 
-**Choice:** Option 1:   AO3400A Alpha and Omega Semiconductor 
+**Choice:** Option 2:  IRLZ44N Infineon
 
-**Rationale:** Team 106 is open to trying multiple MOSFETS since the low cost and speedy shipping times the AO3400A seems to be the favorite among hobbyists with similar constraints to our project 
+**Rationale:** The PIC microcontroller cannot safely power the pump directly so a MOSFET is needed. The MOSFET switches the 5-6V supply on and off rapidly with a PWM signal to control speed and water flow. The IRLZ44N is a good choice here because it can safely handle the pumps motor current without overheating or damaging the microcontroller this meets project constraints by coming in through hole configuration, working directly with 3.3V or 5V microcontroller signals and has a great safety margin for our project outputting virtually no heat.
 
