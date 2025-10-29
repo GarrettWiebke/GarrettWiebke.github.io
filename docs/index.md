@@ -1,5 +1,5 @@
 ---
-title: Welcome to my project website!
+title: Home
 tags:
 - tag1
 - tag2
@@ -7,28 +7,31 @@ tags:
 <center>
 <font size= "6">Garrett Wiebke Datasheet</font><br>
 as part of<br>
-<font size= "8"> Embedded Systems Design </font><br>
+<font size= "8"> Automatic Plant Care System  </font><br>
 for<br>
 <font size= "5"> Team 106 </font><br>
 
-**Submission: September, 02, 2025**
+**Submission: October 31,2025**
 </center>
 
 ## Introduction
 
-* This is my Project for EGR 304 Embedded Systems Design 
+* This report website focuses on the design of the Water Pump Subsystem in the Automatic Plant Care system 
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* The Water Pump Subsystem is one of 4 subsystems included in Team 106's Automatic Plant Care System [Team Website](https://asu-egr304-2025-f-106.github.io/ASU-EGR304-2025-F-106/) and is designed to water the plant's soil using data from JT's Moisture Sensor Subsystem. Having fully autonomous watering of the plant alleviates the consistent work of having to care for the plant everyday and ideally saves water by preventing overwatering. 
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+To review the details used to show how the subsystems components connect to the microcontroller and other subsystems , you can review it in the ["Block Diagram"](https://garrettwiebke.github.io/01-Block-Diagram/Block-Diagram//) section of the datasheet.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+To review the details on how components were selected for this subsystem, you can review it in the ["Component Selection"](https://garrettwiebke.github.io/02-Component-Selection/Component-Selection/) section of the datasheet.
 
-For all the sections
+To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://garrettwiebke.github.io/03-BOM/BOM/) section of the datasheet.
+
+To review the details of the electrical schematic, you can review it in the ["Schematic"](https://garrettwiebke.github.io/04-Schematic/schematic/) section of the datasheet.
+
+To review the details listed of how the subsystem will be powered and its power draw, you can review it in the ["Power Budget"](https://garrettwiebke.github.io/05-Power-Budget/Power-Budget/) section of the datasheet.
+
