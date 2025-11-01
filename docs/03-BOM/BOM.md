@@ -9,7 +9,7 @@ tags:
 This is the Bill of Materials of the components needed to create the Water Pump Subsystem, this includes refrences that are used in the electrical schematic and an estimated total cost. 
 
 
-|| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacturer** | **Manufacturer #** | **Vendor Link** | **Datasheet Link** | **Schematic Reference Designators** |
+| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacturer** | **Manufacturer #** | **Vendor Link** | **Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----:|:---------------:|:-----:|:--------|:-----|:-----|:----|:-----|
 | 5V Peristalic Pump | 1 | $25.00 | $25.00 | Adafruit | 3910 | [https://www.adafruit.com/product/3910#technical-details](https://www.adafruit.com/product/3910#technical-details) | U1 |
 | 0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package | 5 | $0.42 | $2.10 | Multicomp | MCU0805R104KCT |  |  | C1,C2,C3, (2 extra) |
