@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* This report website focuses on the design of the Water Pump Subsystem in the Automatic Plant Care system 
+* This report website focuses on the design of the Water Pump Subsystem in the Automatic Plant Care system designed by Team 106 member Garrett Wiebke. 
 
 ### Project Summary
 
