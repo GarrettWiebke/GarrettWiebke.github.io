@@ -3,9 +3,10 @@ title: Schematic
 ---
 
 ## Overview
+This is the electrical schematic for the water pump subsystem of team 106's Automatic Plant Care System 
 
 
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 ## Resouces
 
