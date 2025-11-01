@@ -6,18 +6,18 @@ title: Component Selection Example
 
 **Water Pump**
 
-1. Peristaltic Liquid Pump with Silicone Tubing - 12V DC Power
+1. Hiwonder Water pump
 
-     ![](image.png)
+     ![alt text](image-8.png)
 
-    - **Price:** $24
-    - **Product:** [Link to product](https://www.adafruit.com/product/1150?srsltid=AfmBOooaz39uHHWJ213ik0FwD3iclTX2l7PiEKJ8JLTGcDD_krnj78P4)
+    - **Price:** $7.99
+    - **Product:** [Link to product](https://www.hiwonder.com/products/water-pump-module?variant=39371234345047&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorb_kTUpsCL694XiuvM-Vl92MBrY7hTJsFCmJMT7moRs3hR-3N72Wg&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Better and more reliable water flow       | Rated for 12V instead of a lower 3.3 or 5V                       |
-    | Easy to use and beginner friendly         | Possible durability concerns                                    |
-    | Meets through hole constraint of project  | Expensive component                                   |
+    | Better and more reliable water flow       |       Possible durability concerns                 |
+    | Easy to use and beginner friendly         |                                     |
+    | Meets through hole constraint of project  |                                    |
 
     
 2. 	SUBMERSIBLE 3VDC HORIZONTAL PUMP
