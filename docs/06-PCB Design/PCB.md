@@ -11,7 +11,7 @@ This is the PCB made in KiCad for the water pump subsystem of team 106's Automat
 
 ## Resouces
 The PCB as a PDF download is available 
-![Here](Subsystem PCB.pdf)
+[Here](Subsystem PCB.pdf)
 
 The link to the updated ECAD project .zip file 
-![Here](Wiebke.Garrett.zip)
+[Here](Wiebke.Garrett.zip)
