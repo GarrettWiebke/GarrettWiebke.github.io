@@ -53,51 +53,74 @@ title: Component Selection Example
 **Rationale:** Although this component is pretty expensive compared to its counterparts, it is highly favored by hobbyists and comes from a reliable site with quick delivery times, we are hoping the extra cost can fix some of the grievences about existing products on the market with water pumps with noise and durability being the two most common problems. With this type of water pump the liquid is only touching the tubing instead of the pump internals extending durability and reducing noise.  
 
 
-**MOSFET**
+**Power Supply**
 
-1. AO3400A Alpha and Omega Semiconductor 
+1. 12 Volt 5 Amp power supply 
 
- ![](image-4.png)
+![](image-9.png)
 
-- **Price:** $0.46  
-- **Product:** [AO3400A – Alpha & Omega Semiconductor Inc.](https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772)
+- **Price:** $13.95  
+- **Product:** [Jameco 12V power supply](https://www.jameco.com/z/DCT65W120500ZZ-A2-Jameco-ReliaPro-12-Volt-5-Amp-60-Watt-Regulated-Switching-Desktop-Power-Adapter_2208956.html2)
 
 | Pros                                 | Cons                                         |
 | ------------------------------------ | -------------------------------------------- |
-| Very cheap component                 | Possible stall currents                      |
+| provides more than enough power to the system                 | Expensive                       |
+| Will be able to use water pump to full extent                        | Possible heat concerns                 |
+|                                      | 
+
+
+    
+2. 	5V 1A (1000mA) USB port power supply
+
+    ![alt text](image-10.png)
+
+    - **Price:** $5.95
+    - **Product:** [Link to product](https://www.adafruit.com/product/501)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | extremely cheap                                              | Low power           |
+    | Consistent and reliable                                           | USB instead of barrel jack           |
+    |                           |                     
+    |                                               |   
+
+ 3.  9V 3A
+
+     ![alt text](image-11.png)
+
+    - **Price:** $15.79
+    - **Product:** [Link to product](https://www.walmart.com/ip/Guy-Tech-9V-3A-3000mA-5-5mmx2-1mm-5-5x2-1-AC-DC-Switching-Adapter-Power-Supply-Charger/6907270647?wmlspartner=wlpa&selectedSellerId=101347538)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Middle of the road power and pricing                                                    | Water pump will be slightly weak           |
+    | Consistent and reliable                                           | 
+    
+
+**Choice:** Option 3:  9v 3a
+
+**Rationale:** The 9v 3a is the best choice here because one is already provided in our kit and provides enough power to power both the 6v gear motor and the 12v water pump, although the 12v water pump will not be powered to the full extent. 
+
+**Voltage Regulator**
+
+1. 5V 1.5A Linear Voltage Regulator - 7805 
+
+  ![alt text](image-12.png)
+
+- **Price:** $0.75  
+- **Product:** [Link to product](https://www.adafruit.com/product/2164?srsltid=AfmBOorgiKzlhs3oY63HyqFvFEQKYdkGxO2YQP96WqwmzfRaBIdHGQin)
+
+| Pros                                 | Cons                                         |
+| ------------------------------------ | -------------------------------------------- |
+| Very cheap component                 |                       |
 | Low heat draw                        | Possible durability concerns                 |
-|                                      | Is a surface mount Component 
+|                                      | 
 
 
     
-2. 	IRLZ44N Infineon
 
-     ![alt text](image-7.png)
 
-    - **Price:** $1.52
-    - **Product:** [Link to product](https://www.infineon.com/part/IRLZ44N)
+**Choice:** Option 1:  5V 1.5A Linear Voltage Regulator - 7805
 
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Overkill for project                                              | High heat           |
-    | Consistent and reliable                                           | Expensive           |
-    | Meets through hole constraint of project                          |                     
-    | Quick shipping times                                              |   
-
- 3.  IRLML6344 Infineon
-
-    ![](image-6.png)
-
-    - **Price:** $0.49
-    - **Product:** [Link to product](https://www.infineon.com/part/IRLML6344)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Highly favored                                                    | High heat           |
-    | Consistent and reliable                                           | Surface Mount
-    
-
-**Choice:** Option 2:  IRLZ44N Infineon
-
-**Rationale:** The PIC microcontroller cannot safely power the pump directly so a MOSFET is needed. The MOSFET switches the 5-6V supply on and off rapidly with a PWM signal to control speed and water flow. The IRLZ44N is a good choice here because it can safely handle the pumps motor current without overheating or damaging the microcontroller this meets project constraints by coming in through hole configuration, working directly with 3.3V or 5V microcontroller signals and has a great safety margin for our project outputting virtually no heat.
+**Rationale:** This is a perfect choice, it comes in the kit, the pic is powered by 5v and this will also be able to provide power to the 6v gear motor I am using.
 
